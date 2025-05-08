@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css';
 
 // Connect to the backend socket.io server
-const socket = io('https://tmwaagent.onrender.com'); // Adjust your backend URL if needed
+const socket = io('http://139.59.85.184:3000/send'); // Adjust your backend URL if needed
 
 function App() {
   const [qrCode, setQrCode] = useState(null);  // State to store QR code image URL
