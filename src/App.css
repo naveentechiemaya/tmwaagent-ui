@@ -1,0 +1,16 @@
+.App {
+  background-color: #111;
+  color: #0f0;
+  padding: 20px;
+  font-family: monospace;
+}
+
+.log-container {
+  margin-top: 20px;
+}
+
+.log-entry {
+  margin: 5px 0;
+  border-bottom: 1px dashed #0f0;
+  padding-bottom: 4px;
+}
